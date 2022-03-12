@@ -1,1 +1,1 @@
-web: gunicorn hofsouls_project.wsgi  --log-file -
+web: gunicorn intime_project.wsgi  --log-file -

@@ -198,12 +198,7 @@ OTP_TIMEOUT = config('OTP_TIMEOUT', cast=int)
 
 
 
-CLOUDINARY = {
-  'cloud_name': config('cloud_name'),  
-  'api_key': config('api_key'),  
-  'api_secret': config('api_secret'),  
-  'secure' : True
-}
+
 
 # Heroku: Update database configuration from $DATABASE_URL.
 import dj_database_url
